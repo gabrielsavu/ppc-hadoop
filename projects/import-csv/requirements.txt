@@ -1,0 +1,3 @@
+googledrivedownloader==0.4
+pandas
+hdfs==2.5.8

@@ -3,8 +3,6 @@ version: "3.3"
 services:
   hadoop:
     image: ppc-hadoop
-    volumes:
-      - ./data/hadoop:/tmp/hsperfdata_root
     ports:
-      - "8000:8000"
-      - "50070:50070"
+      - "9864:9864"
+      - "9870:9870"
